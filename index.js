@@ -1,5 +1,8 @@
 // Write your solution here!
-const drivers = ["Milo", "Otis", "Garfield"];
+function drivers(){
+const drivers = ["Milo", "Otis", "Garfield"];  
+}
+
 function destructivelyAppendDriver(Ralph){
 drivers.splice(3,0,"Ralph");
 }
