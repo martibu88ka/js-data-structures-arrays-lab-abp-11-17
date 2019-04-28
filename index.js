@@ -13,5 +13,5 @@ function destructivelyRemoveFirstDriver(){
   drivers.shift(1);
 }
 function appendDriver(Broom){
-  const addDriver = [...drivers, "Broom"];
+  drivers.splice(3,0, "Broom")
 }
