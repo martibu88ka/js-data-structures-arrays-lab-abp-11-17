@@ -1,11 +1,7 @@
 // Write your solution here!
-function drivers(){
 const drivers = ["Milo", "Otis", "Garfield"];
-return drivers
-}
-
 function destructivelyAppendDriver(Ralph){
-drivers().splice(3,0,"Ralph");
+drivers.splice(3,0,"Ralph");
 }
 function destructivelyPrependDriver(Bob){
   drivers.splice(0,0,"Bob");
