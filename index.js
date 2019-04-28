@@ -20,3 +20,6 @@ function prependDriver(Arnold){
   const prependDriver = ["Arnold", ...drivers];
   return prependDriver
 }
+function removeLastDriver(Garfield){
+  const removeLastDriver = drivers.pop();
+}
