@@ -26,5 +26,5 @@ function removeLastDriver(Garfield){
 }
 function removeFirstDriver(Milo){
   const removeFirstDriver = drivers.slice(1);
-  return removeFirstDriver
+  return removeFirstDriver;
 }
